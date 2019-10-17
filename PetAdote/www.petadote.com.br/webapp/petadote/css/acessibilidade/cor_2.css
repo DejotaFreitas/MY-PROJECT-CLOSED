@@ -1,0 +1,7 @@
+body {
+  background-color: #e84393;
+}
+
+#menu-top .menu-global .item p, #menu-lateral .item p {
+  color: #EEE;
+}

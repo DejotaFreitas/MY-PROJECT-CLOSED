@@ -1,0 +1,98 @@
+@media only screen and (max-width: 400px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(50% - 14px); }
+    .instituicao-pequeno {  width: 100%; }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(50% - 14px); }
+  .instituicao-pequeno {  width: 100%; }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(33% - 14px); }
+    .instituicao-pequeno {  width: calc(50% - 10px); }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(25% - 14px); }
+  .instituicao-pequeno {  width: calc(33% - 10px); }
+}
+@media only screen and (min-width: 1201px) {
+  #conteudo .pets-conteiner .pet-box {  width: calc(20% - 14px); }
+  .instituicao-pequeno {  width: calc(33% - 10px); }
+}
+
+.intituicao-section {
+  /* border: 2px dashed #AAA; */
+  padding: 10px;
+  margin: 5px;
+  float: left;
+  overflow: hidden;
+}
+.instituicao-pequeno {
+  min-height: 280px;
+}
+
+
+.intituicao-largo {
+  width: 100%;
+}
+
+.instituicao-imagem {
+  line-height: 0px;
+}
+.instituicao-imagem img {
+  width: 250px;
+  height: 250px;
+  position: relative;	top: 50%;	left: 50%; transform: translateX(-50%);
+}
+
+.intituicao-largo > p {
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.intituicao-section > h1 {
+  line-height: 1.6;
+}
+
+.instituicao-pequeno > p {
+  line-height: 1.6;
+  font-weight: bold;
+}
+.instituicao-pequeno > p span {
+  font-weight: normal;
+}
+
+
+
+
+/* PARCEIROS */
+#conteudo .pets-conteiner {
+  padding: 5px;
+}
+#conteudo .pets-conteiner .pet-box {
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  background-color: #04A057;
+}
+#conteudo .pets-conteiner .pet-box:hover {
+  cursor: pointer;
+}
+#conteudo .pets-conteiner .pet-box:hover .img-box img {
+  opacity: 0.7;
+}
+#conteudo .pets-conteiner .pet-box .img-box {
+  padding: 5px;
+  line-height: 0px;
+}
+#conteudo .pets-conteiner .pet-box .img-box img {
+  width: 100%;
+  height: auto;
+}
+#conteudo .pets-conteiner .pet-box p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0px 5px 5px 5px;
+  color: #FFF !important;
+}

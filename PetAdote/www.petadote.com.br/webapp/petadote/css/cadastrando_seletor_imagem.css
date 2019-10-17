@@ -1,0 +1,88 @@
+.conteiner-foto .input-avatar { float: left; position: relative; left: 50%; transform: translateX(-50%); opacity: 0; height: 1px !important; width: 1px !important; margin: 0px !important; padding: 0px  !important; border: 0px  !important;}
+.conteiner-foto .foto-label {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0px auto !important;
+  border: 2px solid #AAA;
+}
+.conteiner-foto .foto-label .foto { cursor: pointer; width: 100%; }
+.conteiner-foto .foto-label .foto:hover { opacity: 0.7; }
+.conteiner-foto .foto-label .foto:active {  opacity: 1; }
+
+/* CROTADOR IMAGEM */
+.selecao_imagem {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #111;
+  z-index: 4;
+  /* IMPEDIR SELECAO DE CONTEUDO */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.selecao_imagem .area-imagem {
+  position: fixed; top: 50%;	left: 50%; transform: translate(-50%, -50%);
+  margin: 0 auto;
+  z-index: 5;
+}
+.selecao_imagem .area-imagem .imagem {
+  height: 80vh;
+  border: 1px solid #FFF;
+}
+
+.selecao_imagem .area-imagem .imagem:hover {
+  cursor:move;
+}
+
+.selecao_imagem .selecao {
+  position: fixed;	top: 50%;	left: 50%; transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border: 2px #aaf solid;
+  background-color: rgba(0, 0, 255, 0.2);
+  z-index: 6;
+}
+
+.selecao_imagem .selecao:hover {
+  cursor:move;
+}
+
+.selecao_imagem .menu {
+  position: absolute;	top: 50%;	left: 0%; transform: translate(0%, -50%);
+  z-index: 6;
+  /* IMPEDIR SELECAO DE CONTEUDO */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.selecao_imagem .menu .botao-menu {
+  margin: 10px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.selecao_imagem .menu .botao-menu img {
+  width: 50px;
+}
+
+.selecao_imagem .menu .botao-menu:hover {
+  opacity: 1;
+}
+
+.selecao_imagem .menu .botao-menu:active {
+  opacity: 0.7;
+}

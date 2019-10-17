@@ -1,0 +1,6 @@
+#corpo #conteudo {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#corpo #conteudo *, #corpo #conteudo *:before, #corpo #conteudo *:after {
+  color: #FFF;
+}

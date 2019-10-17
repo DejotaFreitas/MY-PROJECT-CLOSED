@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+  .noticia {  padding: 10px 20px; }
+  .noticia .noticia-titulo {  margin-top: 40px; text-indent: 30px; }
+  .noticia .noticia-descricao p { text-indent: 30px;  }
+}
+@media only screen and (min-width: 601px) {
+  .noticia {  padding: 10px 20px; }
+  .noticia .noticia-titulo { margin-top: 40px; text-indent: 50px; }
+  .noticia .noticia-descricao p { text-indent: 50px;  }
+}
+
+.noticia { border-top: 2px dashed #AAA; }
+.noticia .noticia-titulo {  line-height: 1.6; text-align: justify; }
+
+.noticia .noticia-rodape { text-align: right; margin-top: 10px; }
+.noticia .noticia-rodape a { overflow: hidden; }
+
+.noticia .noticia-descricao {
+  max-height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.noticia .noticia-descricao p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.noticia .noticia-mostrar { text-align: center; margin-top: 10px; }
+
+.noticia .noticia-mostrar button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #0089AD;
+  color: #FFF !important;
+}
+.noticia .noticia-mostrar button:hover {
+  cursor: pointer;
+}
+
+.noticia .noticia-apagar { float: left; }
+.noticia .noticia-apagar button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #FF615A;
+  color: #FFF !important;
+}
+.noticia .noticia-apagar button:hover { background-color: #B7342E; cursor: pointer; }
+
+.noticia-nenhumn-pet-encontrado {
+  text-align: center;
+}

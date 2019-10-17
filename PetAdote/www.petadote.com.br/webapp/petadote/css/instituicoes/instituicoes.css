@@ -1,0 +1,85 @@
+@media only screen and (max-width: 400px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(50% - 14px); }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(50% - 14px); }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(33% - 14px); }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(25% - 14px); }
+}
+@media only screen and (min-width: 1201px) {
+  #conteudo .pets-conteiner .pet-box {  width: calc(20% - 14px); }
+}
+
+#conteudo .pets-conteiner {
+  padding: 5px;
+  text-align: center;
+}
+
+#conteudo .pets-conteiner .pet-box {
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  /* border: 2px solid #AAA; */
+  /* -webkit-box-shadow: 0px 1px 3px 2px rgba(200,200,200,1);
+  -moz-box-shadow: 0px 1px 3px 2px rgba(200,200,200,1);
+  box-shadow: 0px 1px 3px 2px rgba(200,200,200,1); */
+  /* background-color: #FFF !important; */
+  background-color: #94AD31;
+}
+#conteudo .pets-conteiner .pet-box:hover {
+  cursor: pointer;
+}
+#conteudo .pets-conteiner .pet-box:hover .img-box img {
+  opacity: 0.7;
+}
+#conteudo .pets-conteiner .pet-box .img-box {
+  padding: 5px;
+  line-height: 0px;
+}
+#conteudo .pets-conteiner .pet-box .img-box img {
+  width: 100%;
+  height: auto;
+}
+#conteudo .pets-conteiner .pet-box p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0px 5px 5px 5px;
+  /* color: #000 !important; */
+  color: #FFF !important;
+}
+
+#conteudo .pesquisapet {
+  position: relative;
+  float: right;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#conteudo .pesquisapet:hover {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+#conteudo .pesquisapet:active {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#conteudo #formulario {
+  display: none;
+}
+
+#conteudo .paginacao {  width: 100%;  text-align: center; margin: 20px 0px 10px 0px; }
+#conteudo .paginacao .botao-pag {  padding: 10px 30px; border-radius: 4px; color: #FFF !important; }
+#conteudo .paginacao .voltar {  background-color: #d63031; }
+#conteudo .paginacao .voltar:hover {  background-color: #ff7675; }
+#conteudo .paginacao .mais-pets { background-color: #00b894; }
+#conteudo .paginacao .mais-pets:hover { background-color: #55efc4; }

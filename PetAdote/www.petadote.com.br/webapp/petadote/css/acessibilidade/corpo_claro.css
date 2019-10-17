@@ -1,0 +1,7 @@
+#corpo #conteudo {
+  background-color: #DDD;
+}
+
+#corpo #conteudo *, #corpo #conteudo *:before, #corpo #conteudo *:after {
+  color: #111;
+}

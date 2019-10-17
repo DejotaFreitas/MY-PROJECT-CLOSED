@@ -1,0 +1,17 @@
+#menu-lateral .item p, #menu-top .menu-global .item p {
+  font-size: 16px;
+}
+
+#corpo #conteudo *, #corpo #conteudo *:before, #corpo #conteudo *:after {
+  font-size: 16px;
+}
+
+#corpo #conteudo h2, #corpo #conteudo h2:before, #corpo #conteudo h2:after {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#corpo #conteudo h1, #corpo #conteudo h1:before , #corpo #conteudo h1:after {
+  font-size: 30px;
+  font-weight: normal;
+}

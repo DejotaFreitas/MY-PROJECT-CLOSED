@@ -1,0 +1,60 @@
+.opition-box-fundo {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background-color: #111;
+  opacity: 0.9;
+  z-index: 20;
+  display: none;
+}
+
+.opition-box {
+  position: fixed; top: 50%;	left: 50%; transform: translate(-50%, -50%);
+  width: 300px;
+  height: auto;
+  z-index: 21;
+  background-color: #EEE;
+  padding: 10px;
+  display: none;
+}
+
+.opition-box .msg {
+  height: auto;
+  padding: 5px;
+}
+.opition-box .msg .opition_box_titulo {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed #AAA;
+  color: #000 !important;
+  font-size: 20px !important;
+}
+.opition-box .msg .opition_box_msg {
+  color: #000 !important;
+  text-align: justify !important;
+  text-indent: 20px;
+}
+.opition-box .opition-button-box{ padding-top: 10px; }
+.opition-box .opition-button-box .opition-button {
+  padding: 10px 15px;
+  color: #FFF !important;
+  width: 48%;
+  cursor: pointer;
+}
+.opition-box .opition-button-box .sim {
+  float: left;
+  background-color: #24A059;
+}
+.opition-box .opition-button-box .nao {
+  float: right;
+  background-color: #A0352A;
+}
+.opition-box .opition-button-box .sim:hover {
+  background-color: #35EC84;
+}
+.opition-box .opition-button-box .nao:hover {
+  background-color: #EC4E3E;
+}

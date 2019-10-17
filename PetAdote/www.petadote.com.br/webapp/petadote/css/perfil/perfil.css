@@ -1,0 +1,83 @@
+@media only screen and (max-width: 700px) {
+  .perfil-conteiner .perfil-section {  width: 100%; }
+}
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  .perfil-conteiner .perfil-section {  width: calc(50% - 10px); }
+  .perfil-conteiner .perfil-section-large {  width: calc(50% - 10px); }
+}
+@media only screen and (min-width: 1001px) {
+  .perfil-conteiner .perfil-section {  width: calc(33% - 10px); }
+  .perfil-conteiner .perfil-section-large {  width: calc(50% - 10px); }
+}
+.perfil-conteiner {
+  width: 100%;
+}
+.perfil-conteiner .perfil-section {
+  overflow: hidden;
+  float: left;
+  padding: 20px;
+  border: 2px dashed #AAA;
+  margin: 5px;
+  min-height: 338px;
+}
+
+.perfil-conteiner .perfil-section input, .perfil-conteiner .perfil-section select, .perfil-conteiner .perfil-section form input, .perfil-conteiner .perfil-section form select, .perfil-conteiner .perfil-section textarea {
+  position: relative;
+  width: 100%;
+  background-color: #FFF;
+  color: #000 !important;
+  border: 2px solid #AAA;
+  margin: 5px 0px 18px 0px;
+}
+.perfil-conteiner .perfil-section-buton-foto {
+  padding-top: 20px;
+}
+.perfil-conteiner .perfil-section textarea {
+  resize: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.perfil-conteiner .perfil-section .rotulo {
+  line-height: 1.2;
+}
+.perfil-conteiner .perfil-section-foto {
+  text-align: center;
+}
+.perfil-conteiner .perfil-section input {
+  padding: 5px;
+}
+.perfil-conteiner .perfil-section select {
+  padding: 4px;
+}
+.perfil-conteiner .perfil-section select option {
+  color: #000 !important;
+  background-color: #FFF !important;
+  font-size: 16px;
+}
+.perfil-conteiner .perfil-section label {
+  margin-top: 5px;
+}
+.perfil-conteiner .perfil-section .msg-error {
+  color: red !important;
+}
+.perfil-conteiner .perfil-section-buton {
+ text-align: center;
+}
+
+.perfil-conteiner .perfil-section-buton button {
+  padding: 8px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #FFF !important;
+  font-size: 20px !important;
+  width: 210px;
+}
+.perfil-conteiner .perfil-section-buton button {
+  background-color: #0089AD;
+}
+.perfil-conteiner .perfil-section-buton button:hover {
+  background-color:#00BBEC;
+}
+.perfil-conteiner .perfil-section-buton button:active {
+  background-color: #ff5252;
+}

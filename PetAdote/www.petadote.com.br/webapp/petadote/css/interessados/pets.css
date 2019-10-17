@@ -1,0 +1,86 @@
+@media only screen and (max-width: 400px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(50% - 14px); }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(50% - 14px); }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(33% - 14px); }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  #conteudo .pets-conteiner .pet-box { width: calc(25% - 14px); }
+}
+@media only screen and (min-width: 1201px) {
+  #conteudo .pets-conteiner .pet-box {  width: calc(20% - 14px); }
+}
+
+#conteudo .pets-conteiner {
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed #AAA;
+}
+
+#conteudo .pets-conteiner .section .titulo, #conteudo .pets-conteiner .section .titulo span {
+  overflow: hidden;
+}
+
+#conteudo .pets-conteiner .pet-box {
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+}
+#conteudo .pets-conteiner .interessado:hover .img-box img {
+  cursor: pointer;
+  opacity: 0.7;
+}
+#conteudo .pets-conteiner .pet-box .img-box {
+  padding: 5px;
+  line-height: 0px;
+}
+#conteudo .pets-conteiner .pet-box .img-box img {
+  width: 100%;
+  height: auto;
+}
+#conteudo .pets-conteiner .pet-box p {
+  padding: 0px 5px 5px 5px;
+}
+#conteudo .pets-conteiner .pet-box p,  #conteudo .pets-conteiner .pet-box span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #FFF !important;
+}
+#conteudo .pets-conteiner .pet-box .pet-situacao {
+  margin-top: 5px;
+}
+
+#conteudo .pesquisapet {
+  position: relative;
+  float: right;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#conteudo .pesquisapet:hover {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+#conteudo .pesquisapet:active {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#conteudo .nenhum-pet {
+  width: 100%;
+  text-align: center;
+}
+
+#conteudo .pets-conteiner .Doação { background-color: #6261AD; }
+#conteudo .pets-conteiner .Perdido { background-color: #7B3347; }
+#conteudo .pets-conteiner .Encontrado { background-color: #4E4D60; }
+#conteudo .pets-conteiner .interessado { background-color: #2A84BF; }

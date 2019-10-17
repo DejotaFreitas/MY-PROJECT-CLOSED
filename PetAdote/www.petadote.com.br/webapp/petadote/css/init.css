@@ -1,0 +1,29 @@
+*, *:before, *:after {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: none;
+  border-style: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+/* remover barra rolagem do corpo */
+/* body::-webkit-scrollbar { width: 0px; } */
+/* barra de roloagem dos componente internos do corpo */
+/* ::-webkit-scrollbar { width: 7px; background-color: #EEE; }
+::-webkit-scrollbar-button {  height: 0px; }
+::-webkit-scrollbar-thumb {  background-color: #AAA; } */
+ body { overflow-y: scroll; }
+
+/* remover decoração das ancoras */
+a { text-decoration: none; }
+
+/* espaçamento antes do texto na primeira linha do paragrafo */
+/* p { text-indent: 5px; } */
+
+/* se o texto ultrapassar o conteiner aparecer os ... */
+/* p { text-overflow: ellipsis; } */

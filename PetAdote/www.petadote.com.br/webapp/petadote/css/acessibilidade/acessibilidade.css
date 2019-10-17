@@ -1,0 +1,27 @@
+@media only screen and (max-width: 999px) {
+  #conteudo .config { float: left; width: 100%; margin-top: 20px;  }
+  #conteudo .config > p { font-weight: bold; }
+  #conteudo .config a p { margin: 20px; }
+  #conteudo .config .conteiner-cor .cores { float: left; margin: 10px;}
+}
+@media only screen and (min-width: 1000px) {
+  #conteudo .config > p { font-weight: bold; }
+  #conteudo .config > * { display: inline-block; vertical-align: middle; padding: 15px; }
+  #conteudo .config a > * { display: inline-block; vertical-align: middle; }
+  #conteudo .config .conteiner-cor .cores { margin: 10px;}
+}
+
+
+#conteudo .config .cores { width: 20px; height: 20px; border-radius: 50%; }
+#conteudo .config .cor-1 { background-color: #282C34; border: 2px solid #000; }
+#conteudo .config .cor-2 { background-color: #e84393; border: 2px solid #000; }
+#conteudo .config .cor-3 { background-color: #474787; border: 2px solid #000; }
+#conteudo .config .cor-4 { background-color: #117e60; border: 2px solid #000; }
+#conteudo .config .cor-5 { background-color: #2c2c54; border: 2px solid #000; }
+#conteudo .config .cor-6 { background-color: #8C7E51; border: 2px solid #000; }
+#conteudo .config .cor-7 { background-color: #2E8C80; border: 2px solid #000; }
+#conteudo .config .cor-8 { background-color: #60646D; border: 2px solid #000; }
+#conteudo .config .cor-9 { background-color: #0F1416; border: 2px solid #000; }
+
+.config a p { color: #111; }
+.config a:hover p { text-decoration:underline; }

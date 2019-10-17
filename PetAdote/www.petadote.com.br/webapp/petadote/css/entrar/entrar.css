@@ -1,0 +1,31 @@
+@media only screen and (max-width: 700px) {
+  #conteudo .formulario {  width: 100%; }
+  #conteudo .formulario a { }
+  #conteudo .formulario .form-section .esqueceusenha {  float: none; line-height: 3; text-align: center; }
+  #conteudo .formulario .form-section .cadastrese {  float: none; line-height: 3; text-align: center;  }
+}
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+  #conteudo .formulario {  width: 60%; }
+  #conteudo .formulario .form-section .esqueceusenha {  float: left; }
+  #conteudo .formulario .form-section .cadastrese {  float: right; }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+  #conteudo .formulario {  width: 40%; }
+  #conteudo .formulario .form-section .esqueceusenha {  float: left; }
+  #conteudo .formulario .form-section .cadastrese {  float: right; }
+}
+@media only screen and (min-width: 1301px) {
+  #conteudo .formulario {  width: 30%; }
+  #conteudo .formulario .form-section .esqueceusenha {  float: left; }
+  #conteudo .formulario .form-section .cadastrese {  float: right; }
+}
+
+#conteudo .formulario .form-section, #conteudo .formulario .form-section-button button {  width: 100%; }
+
+#conteudo .formulario {
+  position: relative; left: 50%; transform: translateX(-50%);
+}
+
+#conteudo .formulario .form-section .esqueceusenha:hover , #conteudo .formulario .form-section .cadastrese:hover {
+  text-decoration:underline;
+}

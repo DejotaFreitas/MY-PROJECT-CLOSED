@@ -1,0 +1,64 @@
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?urlroute=$1
+
+# Definindo páginas inicial padrão
+DirectoryIndex index.php index.html
+
+# impedir listem os arquivos do diretorio seu site
+# Options All -Indexes
+
+# evitar problemas de codificação e renderização com seus arquivos
+<FilesMatch ".(php|htm|html|css|js)$">
+    AddDefaultCharset UTF-8
+</FilesMatch>
+
+# Negar acesso ao todos arquivos php
+<Files *.php>
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Permitir acesso a pagina index.php
+<Files index.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Protegendo seu arquivo .htaccess
+<files ~ "^.*\.([Hh][Tt][Aa])">
+  	order allow,deny
+  	deny from all
+  	satisfy all
+</files>
+
+# Em caso de erro chama a pagina
+ErrorDocument 400 /httperrors/404.html
+ErrorDocument 401 /httperrors/401.html
+ErrorDocument 403 /httperrors/403.html
+ErrorDocument 404 /httperrors/404.html
+ErrorDocument 500 /httperrors/500.html
+
+# Imperdir outros site usem imagens do meu site
+#RewriteEngine on
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?meusite.com.br/ [NC]
+#RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+# Imagem q vai ser mostrada no site ladrao
+#RewriteRule .*\.(jpg|jpeg|png|gif)$ /imagens/imagemalerta.jpg [L]
+
+# Banindo IPs
+#allow from all
+#deny from 200.143.89.154
+#deny from 67.122.145.60
+#deny from 74.14.13.246
+#deny from 67.224.175.26
+
+# Liberando acessoa unico ip
+#<Limit GET POST PUT>
+#order deny,allow
+#deny from all
+#allow from 79.187.22.68
+#</Limit>

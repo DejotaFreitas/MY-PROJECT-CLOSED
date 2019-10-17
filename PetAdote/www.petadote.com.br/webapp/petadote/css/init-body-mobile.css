@@ -1,0 +1,45 @@
+
+#corpo {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  height: calc(100vh - 105px);
+  overflow-y: auto;
+  z-index: 1;
+}
+
+#corpo #conteudo {
+  min-height: calc(100vh - 145px);
+  width: 100%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#corpo #conteudo .cabecalho {
+  margin-top: 10px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+#corpo #conteudo .cabecalho h2 {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#corpo #conteudo .paragrafos p {
+  text-indent: 50px;
+}
+
+#corpo #rodape {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: #EEE;
+}
+
+#corpo #rodape p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
