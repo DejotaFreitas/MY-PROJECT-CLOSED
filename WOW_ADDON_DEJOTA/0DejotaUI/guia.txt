@@ -1,0 +1,2 @@
+saber o numero de versoa do WoW no console
+/run print((select(4, GetBuildInfo())));

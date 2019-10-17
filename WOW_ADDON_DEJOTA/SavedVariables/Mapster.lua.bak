@@ -1,0 +1,40 @@
+
+MapsterDB = {
+	["namespaces"] = {
+		["FogClear"] = {
+		},
+		["Coords"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Dejotalt - Gallywix"] = "Default",
+		["Dejotaoh - Gallywix"] = "Default",
+		["Dejotagt - Gallywix"] = "Default",
+		["Dejotadko - Gallywix"] = "Default",
+		["Dejotadt - Gallywix"] = "Default",
+		["Dejotath - Gallywix"] = "Default",
+		["Dejotadh - Gallywix"] = "Default",
+		["Dejotats - Gallywix"] = "Default",
+		["Dejotam - Gallywix"] = "Default",
+		["Buxadecanhao - Gallywix"] = "Default",
+		["Dejotapes - Gallywix"] = "Default",
+		["Dejotahom - Gallywix"] = "Default",
+		["Dejotax - Gallywix"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrowScale"] = 0.85,
+			["ejScale"] = 0.74,
+			["scale"] = 0.616165339946747,
+			["poiScale"] = 0.99,
+			["y"] = 3.14047286501591,
+			["x"] = 7.5845895471457,
+			["modules"] = {
+				["Coords"] = false,
+			},
+			["fadealpha"] = 0,
+			["alpha"] = 0,
+			["point"] = "TOPLEFT",
+		},
+	},
+}

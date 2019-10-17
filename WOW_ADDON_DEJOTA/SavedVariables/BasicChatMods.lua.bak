@@ -1,0 +1,87 @@
+
+bcmDB = {
+	["lines"] = {
+		["ChatFrame1"] = 1000,
+	},
+	["editBoxScale"] = 0.964820802211762,
+	["noBNetIcon"] = true,
+	["noRealName"] = true,
+	["playerLBrack"] = "[",
+	["stampcol"] = "AAAAAA",
+	["savedChat"] = {
+		["ChatFrame6"] = {
+			{
+				"|cFFAAAAAA|HBCMt:65:6|h[01:41:30] |h|rReputação com Kirin Tor aumentou em 98.", -- [1]
+				0.501960813999176, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				36, -- [5]
+			}, -- [1]
+			{
+				"|cFFAAAAAA|HBCMt:67:6|h[01:41:30] |h|rReputação com Corte de Farondis aumentou em 75.", -- [1]
+				0.501960813999176, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				36, -- [5]
+			}, -- [2]
+			{
+				"|cFFAAAAAA|HBCMt:76:6|h[01:46:19] |h|rReputação com Kirin Tor aumentou em 97.", -- [1]
+				0.501960813999176, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				36, -- [5]
+			}, -- [3]
+			{
+				"|cFFAAAAAA|HBCMt:78:6|h[01:46:19] |h|rReputação com Os Noctívoros aumentou em 75.", -- [1]
+				0.501960813999176, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				36, -- [5]
+			}, -- [4]
+			{
+				"|cFFAAAAAA|HBCMt:110:6|h[02:00:30] |h|rReputação com Kirin Tor aumentou em 98.", -- [1]
+				0.501960813999176, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				36, -- [5]
+			}, -- [5]
+			{
+				"|cFFAAAAAA|HBCMt:112:6|h[02:00:30] |h|rReputação com Os Noctívoros aumentou em 75.", -- [1]
+				0.501960813999176, -- [2]
+				0.501960813999176, -- [3]
+				1, -- [4]
+				36, -- [5]
+			}, -- [6]
+		},
+	},
+	["stampfmt"] = "[%H:%M:%S] ",
+	["replacements"] = {
+		"[GEN]", -- [1]
+		"[T]", -- [2]
+		"[WD]", -- [3]
+		"[LD]", -- [4]
+		"[LFG]", -- [5]
+		"[GR]", -- [6]
+		"[I]", -- [7]
+		"[IL]", -- [8]
+		"[G]", -- [9]
+		"[P]", -- [10]
+		"[PL]", -- [11]
+		"[PL]", -- [12]
+		"[O]", -- [13]
+		"[R]", -- [14]
+		"[RL]", -- [15]
+		"[RW]", -- [16]
+		"[%1]", -- [17]
+	},
+	["fontflag"] = "OUTLINE",
+	["noChatCopyTip"] = true,
+	["playerRBrack"] = "]",
+	["sticky"] = {
+		["EMOTE"] = 1,
+		["YELL"] = 1,
+		["RAID_WARNING"] = 1,
+	},
+	["noEditBoxBG"] = true,
+	["playerSeparator"] = ":",
+}

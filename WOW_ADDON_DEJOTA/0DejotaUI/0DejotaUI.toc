@@ -1,0 +1,12 @@
+## Interface: 80000
+## Title: 0DejotaUI
+## Notes: Simple AddOn UI
+## Version: 1
+## Author: Dejoa
+## X-Email: djxpgs@hotmail.com
+## X-Category: UI
+## X-Website: http://www.wowace.com/addons/0DejotaUI/
+## X-License: All rights reserved.
+
+
+0DejotaUI.lua

@@ -1,0 +1,119 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Dejotalt - Gallywix"] = "Dejotalt - Gallywix",
+		["Dejotaoh - Gallywix"] = "Dejotaoh - Gallywix",
+		["Dejotam - Gallywix"] = "Dejotam - Gallywix",
+		["Dejotath - Gallywix"] = "Dejotath - Gallywix",
+	},
+	["profiles"] = {
+		["Dejotalt - Gallywix"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -35.21728515625,
+					["x"] = 467.826599121094,
+					["w"] = 178.260971069336,
+					["h"] = 150.434783935547,
+				},
+				["Buttons"] = {
+					["CloseButton"] = false,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 150.434783935547,
+			["MainWindowWidth"] = 178.260971069336,
+			["CurDataSet"] = "OverallData",
+		},
+		["Dejotaoh - Gallywix"] = {
+			["MainWindow"] = {
+				["Buttons"] = {
+					["CloseButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -60.8695983886719,
+					["x"] = 488.261047363281,
+					["w"] = 161.739364624023,
+					["h"] = 166.956558227539,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 166.956558227539,
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 161.739242553711,
+			["LastInstanceName"] = "Docas de Ferro",
+		},
+		["Dejotam - Gallywix"] = {
+			["MainWindow"] = {
+				["Buttons"] = {
+					["CloseButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -199.885467529297,
+					["x"] = 456.017883300781,
+					["w"] = 203.157745361328,
+					["h"] = 135.789428710938,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowWidth"] = 203.157669067383,
+			["MainWindowHeight"] = 135.789428710938,
+			["CurDataSet"] = "OverallData",
+		},
+		["Dejotath - Gallywix"] = {
+			["ZoneFilters"] = {
+				["none"] = false,
+			},
+			["MainWindow"] = {
+				["Buttons"] = {
+					["CloseButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -27.9734191894531,
+					["x"] = 508.792053222656,
+					["w"] = 139.999969482422,
+					["h"] = 122.130409240723,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowHeight"] = 122.130378723145,
+			["MainWindowWidth"] = 140.000045776367,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

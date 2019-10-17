@@ -1,0 +1,59 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Dejotalt - Gallywix"] = "Dejotalt - Gallywix",
+		["Dejotapes - Gallywix"] = "Dejotapes - Gallywix",
+		["Dejotaoh - Gallywix"] = "Dejotaoh - Gallywix",
+		["Dejotagt - Gallywix"] = "Dejotagt - Gallywix",
+		["Dejotadt - Gallywix"] = "Dejotadt - Gallywix",
+		["Dejotam - Gallywix"] = "Dejotam - Gallywix",
+		["Dejotath - Gallywix"] = "Default",
+	},
+	["profiles"] = {
+		["Dejotalt - Gallywix"] = {
+		},
+		["Dejotapes - Gallywix"] = {
+		},
+		["Default"] = {
+			["icon_alpha_minimap"] = 0.67,
+		},
+		["Dejotaoh - Gallywix"] = {
+		},
+		["Dejotagt - Gallywix"] = {
+		},
+		["Dejotadt - Gallywix"] = {
+		},
+		["Dejotam - Gallywix"] = {
+		},
+		["Dejotath - Gallywix"] = {
+			["icon_alpha_minimap"] = 0.67,
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Dejotalt - Gallywix"] = "Dejotalt - Gallywix",
+		["Dejotapes - Gallywix"] = "Dejotapes - Gallywix",
+		["Dejotaoh - Gallywix"] = "Dejotaoh - Gallywix",
+		["Dejotagt - Gallywix"] = "Dejotagt - Gallywix",
+		["Dejotadt - Gallywix"] = "Dejotadt - Gallywix",
+		["Dejotam - Gallywix"] = "Dejotam - Gallywix",
+		["Dejotath - Gallywix"] = "Dejotath - Gallywix",
+	},
+	["profiles"] = {
+		["Dejotalt - Gallywix"] = {
+		},
+		["Dejotapes - Gallywix"] = {
+		},
+		["Dejotaoh - Gallywix"] = {
+		},
+		["Dejotagt - Gallywix"] = {
+		},
+		["Dejotadt - Gallywix"] = {
+		},
+		["Dejotam - Gallywix"] = {
+		},
+		["Dejotath - Gallywix"] = {
+		},
+	},
+}
